@@ -14,23 +14,20 @@ A simple Java-based Library Management System that allows administrators to mana
 
 - **Java** — Core programming language
 - **OOP Concepts** — Classes, Objects, Inheritance, Polymorphism
-- **Text-based UI** — Simple console interactions
+- **Text-based UI** — Simple console interactions and usingSQL
 
-## 📂 Project Structure
-
-```
-
-Library-Management-System/
+LibraryManagementProject/
 ├── src/
-│   ├── Book.java
-│   ├── Library.java
-│   ├── User.java
-│   ├── Student.java
-│   ├── Librarian.java
+│   ├── model/
+│   │   └── Book.java
+│   ├── dao/
+│   │   └── BookDAO.java
+│   ├── util/
+│   │   └── DBConnection.java
+│   ├── ui/
+│   │   └── LibraryUI.java
 │   └── Main.java
-└── README.md
-
-````
+└── create_table.sql
 
 ## 🧑‍💻 Getting Started
 
