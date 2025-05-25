@@ -26,7 +26,7 @@ public class Main {
                 sc.next();
             }
             choice = sc.nextInt();
-            sc.nextLine(); // Consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1 -> {
